@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Erdal Öz Edebiyat Ödülü" />
+
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <title>Erdal Öz Edebiyat Ödülü</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/materialdesignicons.min.css" rel="stylesheet" />
+
+    <!-- mobrise icon -->
+    <link rel="stylesheet" type="text/css" href="css/mobrise.css" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/menu.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Navigation Bar-->
+    <header id="topnav" class="defaultscroll">
+      <div class="container">
+        <!-- Logo container-->
+        <a href="index.html" class="logo">
+          <img src="images/horizontal-logo.png" class="logo" alt="logo" />
+        </a>
+        <!-- End Logo container-->
+        <div class="menu-extras">
+          <div class="menu-item">
+            <!-- Mobile menu toggle-->
+            <a class="navbar-toggle">
+              <div class="lines">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </a>
+            <!-- End mobile menu toggle-->
+          </div>
+        </div>
+
+        <div id="navigation">
+          <!-- Navigation Menu-->
+          <ul class="navigation-menu">
+            <li class="has-submenu">
+              <a href="index.html">Anasayfa</a>
+            </li>
+
+            <li class="has-submenu">
+              <a href="hakkimizda.html">Hakkımızda</a>
+            </li>
+
+            <li class="has-submenu">
+              <a href="#" class="submenu-title">Başvurular</a>
+              <span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li>
+                  <a href="oyku-basvuru.html">Erdal Öz İlk Öykü Ödülü</a>
+                </li>
+                <li>
+                  <a href="roman-basvuru.html">Erdal Öz Roman Ödülü</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!-- End navigation menu-->
+        </div>
+      </div>
+    </header>
+    <!-- End Navigation Bar-->
+
+    <section class="home-height">
+      <img class="home-background" src="images/erdaloz1.jpg" />
+      <div class="home-center">
+        <div class="home-desc-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="home-title text-center">
+                  <h2>
+                    Erdal Öz Edebiyat Ödülü Bu Yıl Üç Farklı Kategoride
+                    Sahiplerini Buluyor
+                  </h2>
+                  <h6 class="home-subtitle">Başvurular İçin Son Tarih 15 Nisan</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home End-->
+
+    <!-- portfolio -->
+    <section class="section bg-light">
+      <div class="container">
+        <div class="port portfolio-masonry mb-3">
+          <h2 class="portfolio-title">Tüm Yıllar</h2>
+          <div id="portfolio-container" class="portfolioContainer row" />
+          <!-- end portfoliocontainer-->
+        </div>
+        <!-- End row -->
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-center mt-3">
+              <a
+                href="javascript:void(0);"
+                id="load-more-btn"
+                class="btn btn-custom"
+              >
+                Daha fazla Göster</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- portfolio end -->
+
+    <!-- footer -->
+    <section class="section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="footer">
+              <h3 class="footer-logo m-0">
+                <a href="index.html">Erdal Öz Edebiyat Ödülü</a>
+              </h3>
+            </div>
+            <div class="mb-4 pt-4">
+              <ul class="list-unstyled social-icon">
+                <li class="list-inline-item">
+                  <a href="javascript:void(0);"
+                    ><i class="mdi mdi-twitter"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="javascript:void(0);"
+                    ><i class="mdi mdi-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer-alt">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="float-right pull-none mt-4">
+              <p>
+                <a href="mailto:info@test.com">info@test.com</a>
+              </p>
+            </div>
+
+            <div class="float-left pull-none mt-4">
+              <p class="copy-rights text-muted">2025 Erdal Öz Edebiyat Ödülü</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- isotope filter plugin -->
+    <!--custom script-->
+    <script src="js/jquery.app.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const people = [
+          {
+            name: "Necati Tosuner",
+            year: 2024,
+            imgSrc: "images/winners/2024_necati_tosuner.jpg",
+          },
+          {
+            name: "Füruzan",
+            year: 2023,
+            imgSrc: "images/winners/2023_furuzan.png",
+          },
+          {
+            name: "Mehmet Eroğlu",
+            year: 2022,
+            imgSrc: "images/winners/2022_mehmet_eroğlu.jpg",
+          },
+          {
+            name: "Selim İleri",
+            year: 2021,
+            imgSrc: "images/winners/2021_selim_ileri.jpg",
+          },
+          {
+            name: "Jale Parla",
+            year: 2020,
+            imgSrc: "images/winners/2020_jale_parla.jpg",
+          },
+          {
+            name: "Latife Tekin",
+            year: 2019,
+            imgSrc: "images/winners/2019_latife_tekin.png",
+          },
+          {
+            name: "Adalet Ağaoğlu",
+            year: 2018,
+            imgSrc: "images/winners/2018_adalet_agaoglu.png",
+          },
+          {
+            name: "Cevat Çapan",
+            year: 2017,
+            imgSrc: "images/winners/2017_cevat_capan.jpg",
+          },
+          {
+            name: "Orhan Koçak",
+            year: 2016,
+            imgSrc: "images/winners/2016_orhan_kocak.jpg",
+          },
+          {
+            name: "Orhan Pamuk",
+            year: 2015,
+            imgSrc: "images/winners/2015_orhan_pamuk.jpg",
+          },
+          {
+            name: "Küçük İskender",
+            year: 2014,
+            imgSrc: "images/winners/2014_kucuk_iskender.jpg",
+          },
+          {
+            name: "Cemil Kavukçu",
+            year: 2013,
+            imgSrc: "images/winners/2013_cemil_kavukcu.png",
+          },
+          {
+            name: "Murathan Mungan",
+            year: 2012,
+            imgSrc: "images/winners/2012_murathan_mungan.jpg",
+          },
+          {
+            name: "Şavkar Altınel",
+            year: 2011,
+            imgSrc: "images/winners/2011_şavkar_altinel.jpg",
+          },
+          {
+            name: "Nurdan Gürbilek",
+            year: 2010,
+            imgSrc: "images/winners/2010_nurdan_gurbilek.jpg",
+          },
+          {
+            name: "İhsan Oktay Anar",
+            year: 2009,
+            imgSrc: "images/winners/2009_ihsan_oktay_anar.jpg",
+          },
+          {
+            name: "Gülten Akın",
+            year: 2008,
+            imgSrc: "images/winners/2008_gulten_akin.webp",
+          },
+        ];
+
+        const container = document.getElementById("portfolio-container");
+        const loadMoreBtn = document.getElementById("load-more-btn");
+
+        let currentIndex = 0;
+        const itemsPerPage = 9;
+
+        function renderItems() {
+          const nextIndex = currentIndex + itemsPerPage;
+          const itemsToShow = people.slice(currentIndex, nextIndex);
+
+          // HTML string olarak öğeleri oluştur ve tek seferde ekle
+          let html = itemsToShow
+            .map(
+              (person) => `
+            <div class="col-lg-4 natural personal">
+                <div class="portfolio-box">
+                    <div class="portfolio-box-img">
+                        <img src="${person.imgSrc}" class="img-fluid" alt="${person.name}">
+                    </div>
+                    <div class="gallary-title text-center">
+                        <h6>${person.name}</h6>
+                        <span>${person.year}</span>
+                    </div>
+                </div>
+            </div>
+        `
+            )
+            .join("");
+
+          container.insertAdjacentHTML("beforeend", html); // Yeni öğeleri ekle
+          currentIndex = nextIndex;
+
+          // Eğer tüm elemanlar yüklendiyse butonu gizle
+          if (currentIndex >= people.length) {
+            loadMoreBtn.style.display = "none";
+          }
+        }
+
+        // Sayfa açıldığında ilk 9 öğeyi göster
+        renderItems();
+
+        // Load More butonuna tıklanınca yeni öğeleri ekleyelim
+        loadMoreBtn.addEventListener("click", renderItems);
+      });
+    </script>
+  </body>
+</html>
